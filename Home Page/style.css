@@ -29,16 +29,16 @@
   height: 1816px;
   top: 81px;
   left: 0;
-  mix-blend-mode: lighten;
-  object-fit: cover;
 }
 
 .home-page .content-block {
-  position: absolute;
+  position: relative;
   width: 1628px;
   height: 1550px;
   top: 347px;
   left: 168px;
+  color: #183E20;
+  border-radius: 2%;
 }
 
 .home-page .content {
@@ -95,40 +95,38 @@
   color: #ffffff;
 }
 
-.home-page .leaf {
+.home-page .leaf-1 {
   position: absolute;
   width: 88px;
   height: 56px;
-  top: 151px;
-  left: 3px;
-}
-
-.home-page .img {
-  top: 219px;
-  position: absolute;
-  width: 88px;
-  height: 56px;
-  left: 3px;
+  top: 0%;
+  left: -3%;
 }
 
 .home-page .leaf-2 {
-  top: 321px;
   position: absolute;
   width: 88px;
   height: 56px;
-  left: 3px;
+  top: 26%;
+  left: -3%;
+}
+
+.home-page .leaf-3 {
+  position: absolute;
+  width: 88px;
+  height: 56px;
+  top: 62%;
+  left: -3%;
 }
 
 .home-page .div {
-  position: absolute;
-  top: 0;
-  left: 353px;
+  position: relative;
+  top: -10%;
+  left: 24%;
   font-family: "Khmer", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
 .home-page .video-block {
@@ -345,9 +343,9 @@
 
 .home-page .sensor-history {
   position: absolute;
-  width: 301px;
+  width: 400px;
   top: 0;
-  left: 39px;
+  left: 30px;
   font-family: "Khmer", Helvetica;
   font-weight: 400;
   color: #092c15fd;
@@ -376,9 +374,9 @@
 
 .home-page .the-system {
   position: absolute;
-  width: 213px;
+  width: 300px;
   top: 1px;
-  left: 66px;
+  left: 58px;
   font-family: "Khmer", Helvetica;
   font-weight: 400;
   color: #092c15fd;
