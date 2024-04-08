@@ -19,6 +19,14 @@ p {
     font-size: 20;
 }
 
+.leaf {
+    display: flex;
+}
+
+.leaf p {
+    translate: -30px 0;
+}
+
 /*
 This section is dedicated to the overal page design
 */
@@ -58,19 +66,47 @@ This section is dedicated to the overal page design
 }
 
 
+/*
+This section is dedicated to navigation bar design
+*/
+nav .logo_image {
+    position: fixed;
+    float: left;
+    z-index: 10;
+}
+
+nav .nav_options {
+    position: fixed;
+    background-color: rgba(2, 37, 16, 0.9);
+    padding: 10px 20px;
+    border-radius: 40px;
+    display: flex;
+    gap: 3em;
+    left: 50%;
+    translate: -50% 0;
+    z-index: 11;
+    width: max-content;
+}
+
+nav .nav_options h1 {
+    background-color: rgba(2, 37, 16, 0.9);
+    padding: 10px;
+}
 
 
 /*
 This section is dedicated to page1 internal design
 */
+
+
 .page1 .p1content {
+    position: relative;
     background-color: rgba(2, 37, 16, 0.9);
     border-radius: 40px;
     padding: 0 20px;
-    position: relative;
+    height: 80vh;
+    top: 20vh;
 
-    height: 70vh;
-    z-index: 1000;
 
 }
 
