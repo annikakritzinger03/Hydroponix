@@ -140,10 +140,19 @@
 .home-page .overlap-2 {
   position: absolute;
   width: 709px;
-  height: 421px;
+  height: 440px;
   top: 62px;
   left: 270px;
   background-color: #006dfeb2;
+  border-radius: 36px;
+}
+
+.home-page .youtube-thumbnail {
+  position: absolute;
+  width: 665px;
+  height: 400px;
+  top: 4.5%;
+  left: 3%;
   border-radius: 36px;
 }
 
