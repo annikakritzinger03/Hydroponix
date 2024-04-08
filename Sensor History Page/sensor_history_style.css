@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    color: white;
+    font-size: 48;
+}
+
+h2 {
+    color: rgba(131, 234, 154, 1);
+    font-size: 40;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20;
+}
+
+/*
+This section is dedicated to the overal page design
+*/
+.page1 {
+    background-image: linear-gradient(rgb(235, 242, 153), rgba(167, 231, 137, 0.685), rgba(56, 242, 130, 0));
+    padding: 0 10%;
+    height: 100vh;
+
+}
+
+.page2,
+.page4 {
+    background-color: rgb(2, 37, 16);
+    padding: 0 10%;
+    height: 100vh;
+
+}
+
+.page3 {
+    background-image: linear-gradient(rgb(235, 242, 153), rgba(167, 231, 137, 0.685), rgba(56, 242, 130, 0));
+    padding: 0 10%;
+    height: 100vh;
+
+}
+
+
+
+.pages h2 {
+    text-align: center;
+}
+
+.block {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+
+
+
+/*
+This section is dedicated to page1 internal design
+*/
+.page1 .p1content {
+    background-color: rgba(2, 37, 16, 0.9);
+    border-radius: 40px;
+    padding: 0 20px;
+    position: relative;
+
+    height: 70vh;
+    z-index: 1000;
+
+}
+
+.p1content h1 {
+    text-align: center;
+}
+
+
+/*
+This section is dedicated to page24 internal design
+*/
+.p24content {
+    background-color: red;
+    border-radius: 40px;
+    padding: 0 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    height: 100%;
+}
+
+/*
+This section is dedicated to page3 internal design
+*/
+.page3 .p3content {
+    background-color: rgba(2, 37, 16, 0.9);
+    border-radius: 40px;
+    padding: 0 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    height: 100%;
+}
