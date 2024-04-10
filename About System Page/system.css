@@ -1,0 +1,79 @@
+body{
+background-image: linear-gradient( rgb(235.14, 242.25, 153.43) 0%,
+rgba(17,140, 27, 69%) 30%),url(Pictures/vector-1.png);
+background-repeat: no-repeat;
+font-family: 'Roboto';
+justify-content: center;
+text-align: center;
+height: 100vh;
+margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  max-width: 50%;
+  margin-left: 25%;
+  padding: 20px;
+  background-color:  rgba(3, 32, 14, 0.95);
+  border-radius: 27px;
+}
+
+.navbar a {
+  color: white !important;
+  border-radius: 27px;
+  background-color: rgba(22, 168, 81, 1);
+  min-width: 18%;
+  max-width: 22%;
+  padding: 2%;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.logo{
+    width: 5%;
+    float: left;  
+    position: relative;
+    bottom: 12%;
+    left: 18%;  
+}
+
+  .active{
+    font-weight: bolder;
+    background-color: rgba(78, 223, 111, 1) !important;
+  }
+h1 h2{
+    font-size: xx-large;
+}
+h2{
+    color: rgba(131, 234, 154, 1);
+}
+.content{
+  max-width: 75%;
+  margin-left: 12%;
+  margin-top: 5%;
+  text-align: center;
+  border: 5px black solid;
+  border-radius: 27px;
+  background-color: rgba(3, 32, 14, 0.95);
+  color: white;
+}
+section{
+    display: grid;
+    grid-template-columns:auto auto;
+    padding: 20px;
+}
+
+section p{
+    margin: 0cm 2cm 0;
+    align-content: center;
+}
+section img{
+    border: 15px rgba(10, 108, 231, 1) solid;
+    border-radius: 47px;
+    width: 300px;
+    height: 200px;
+}
