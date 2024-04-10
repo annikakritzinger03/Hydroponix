@@ -1,4 +1,4 @@
-.home-page {
+#home-page {
   background-color: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: row;
@@ -6,24 +6,23 @@
   width: 100%;
 }
 
-.home-page .overlap-wrapper {
+.overlap-wrapper {
   background-color: rgba(255, 255, 255, 1);
   background: linear-gradient(
     180deg,
     rgb(235.14, 242.25, 153.43) 0%,
-    rgba(167.15, 230.61, 137.45, 0.69) 29.5%,
-    rgba(55.52, 242.25, 130.21, 0) 58.5%
+    rgba(17, 140, 27, 0.69) 30%
   );
   width: 1967px;
   height: 1897px;
 }
 
-.home-page .overlap {
+ .overlap {
   position: relative;
   height: 1897px;
 }
 
-.home-page .vector {
+ #background-img {
   position: absolute;
   width: 1967px;
   height: 1816px;
@@ -31,7 +30,7 @@
   left: 0;
 }
 
-.home-page .content-block {
+ #content-block {
   position: relative;
   width: 1628px;
   height: 1550px;
@@ -41,7 +40,7 @@
   border-radius: 2%;
 }
 
-.home-page .content {
+ .content {
   position: absolute;
   width: 1577px;
   height: 777px;
@@ -49,7 +48,7 @@
   left: 200px;
 }
 
-.home-page .overlap-group {
+ .overlap-group {
   position: absolute;
   width: 1571px;
   height: 674px;
@@ -57,7 +56,7 @@
   left: 0;
 }
 
-.home-page .hydroponics-farming {
+ #hydroponics-farming {
   position: absolute;
   width: 1554px;
   top: 0;
@@ -70,32 +69,22 @@
   line-height: normal;
 }
 
-.home-page .hydroponic-systems {
+  #benefits {
   position: absolute;
-  width: 1508px;
   top: 151px;
   left: 63px;
+}
+
+ .green-text {
+  color: #9cd7a9;
   font-family: "Khmer", Helvetica;
   font-weight: 400;
-  color: transparent;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.home-page .text-wrapper {
-  color: #9cd7a9;
-}
-
-.home-page .span {
-  color: #4edf6f;
-}
-
-.home-page .text-wrapper-2 {
-  color: #ffffff;
-}
-
-.home-page .leaf-1 {
+ #leaf-1 {
   position: absolute;
   width: 88px;
   height: 56px;
@@ -103,7 +92,7 @@
   left: -3%;
 }
 
-.home-page .leaf-2 {
+ #leaf-2 {
   position: absolute;
   width: 88px;
   height: 56px;
@@ -111,7 +100,7 @@
   left: -3%;
 }
 
-.home-page .leaf-3 {
+ #leaf-3 {
   position: absolute;
   width: 88px;
   height: 56px;
@@ -119,7 +108,7 @@
   left: -3%;
 }
 
-.home-page .div {
+ .h1 {
   position: relative;
   top: -10%;
   left: 24%;
@@ -127,9 +116,10 @@
   font-weight: 400;
   color: #ffffff;
   font-size: 48px;
+  margin-bottom: -30px;
 }
 
-.home-page .video-block {
+.video-block {
   position: absolute;
   width: 1254px;
   height: 483px;
@@ -137,7 +127,7 @@
   left: 356px;
 }
 
-.home-page .overlap-2 {
+ .overlap-2 {
   position: absolute;
   width: 709px;
   height: 440px;
@@ -147,16 +137,17 @@
   border-radius: 36px;
 }
 
-.home-page .youtube-thumbnail {
+ .youtube-thumbnail {
   position: absolute;
   width: 665px;
   height: 400px;
   top: 4.5%;
   left: 3%;
   border-radius: 36px;
+  border: 4px solid black;
 }
 
-.home-page .image {
+ .image {
   width: 674px;
   height: 386px;
   top: 19px;
@@ -165,7 +156,7 @@
   object-fit: cover;
 }
 
-.home-page .play {
+ .play {
   position: absolute;
   width: 180px;
   height: 169px;
@@ -173,11 +164,7 @@
   left: 261px;
 }
 
-.home-page .p {
-  position: absolute;
-  width: 1252px;
-  top: 0;
-  left: 0;
+ .normal-text {
   font-family: "Khmer", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -186,7 +173,7 @@
   line-height: normal;
 }
 
-.home-page .hydroponic-imgs {
+ .hydroponic-imgs {
   position: absolute;
   width: 1430px;
   height: 242px;
@@ -196,7 +183,7 @@
   border-radius: 36px;
 }
 
-.home-page .image-2 {
+ #image-1 {
   width: 347px;
   height: 223px;
   top: 13px;
@@ -205,7 +192,7 @@
   object-fit: cover;
 }
 
-.home-page .image-3 {
+ #image-2 {
   width: 312px;
   height: 214px;
   top: 13px;
@@ -214,7 +201,7 @@
   object-fit: cover;
 }
 
-.home-page .image-4 {
+ #image-3 {
   width: 334px;
   height: 215px;
   top: 14px;
@@ -223,7 +210,7 @@
   object-fit: cover;
 }
 
-.home-page .image-5 {
+ #image-4 {
   width: 361px;
   height: 214px;
   top: 15px;
@@ -232,7 +219,7 @@
   object-fit: cover;
 }
 
-.home-page .navigation-bar {
+ #navigation-bar {
   position: absolute;
   width: 1946px;
   height: 112px;
@@ -240,7 +227,7 @@
   left: 21px;
 }
 
-.home-page .overlap-3 {
+ #overlap-3 {
   position: absolute;
   width: 1946px;
   height: 256px;
@@ -248,7 +235,7 @@
   left: 136px;
 }
 
-.home-page .tab-bar {
+ .tab-bar {
   position: absolute;
   width: 1946px;
   height: 112px;
@@ -256,7 +243,7 @@
   left: 0;
 }
 
-.home-page .HIDROPONIX-removebg {
+ #hydroponix-logo {
   position: absolute;
   width: 760px;
   height: 244px;
@@ -265,7 +252,7 @@
   object-fit: cover;
 }
 
-.home-page .logo {
+ #logo {
   position: absolute;
   width: 113px;
   height: 51px;
@@ -273,7 +260,7 @@
   left: 59px;
 }
 
-.home-page .overlap-group-2 {
+ #overlap-group-2 {
   position: absolute;
   width: 114px;
   height: 143px;
@@ -281,7 +268,7 @@
   left: -148px;
 }
 
-.home-page .ellipse {
+ .ellipse {
   position: absolute;
   width: 103px;
   height: 143px;
@@ -289,7 +276,7 @@
   left: 3px;
 }
 
-.home-page .hydroponix {
+ .hydroponix {
   position: absolute;
   width: 114px;
   height: 95px;
@@ -298,7 +285,7 @@
   object-fit: cover;
 }
 
-.home-page .rectangle {
+ .rectangle {
   position: absolute;
   width: 27px;
   height: 50px;
@@ -306,7 +293,7 @@
   left: 10px;
 }
 
-.home-page .ellipse-2 {
+ .ellipse-2 {
   position: absolute;
   width: 8px;
   height: 6px;
@@ -314,7 +301,7 @@
   left: 38px;
 }
 
-.home-page .ellipse-3 {
+ .ellipse-3 {
   position: absolute;
   width: 12px;
   height: 49px;
@@ -322,7 +309,7 @@
   left: -45px;
 }
 
-.home-page .overlap-4 {
+ .overlap-4 {
   position: absolute;
   width: 1470px;
   height: 87px;
@@ -332,7 +319,7 @@
   background-size: 100% 100%;
 }
 
-.home-page .overlap-5 {
+ .overlap-5 {
   position: absolute;
   width: 380px;
   height: 56px;
@@ -340,7 +327,7 @@
   left: 1057px;
 }
 
-.home-page .sensor-btn {
+ .sensor-btn {
   position: absolute;
   width: 380px;
   height: 54px;
@@ -350,7 +337,7 @@
   border-radius: 22px;
 }
 
-.home-page .sensor-history {
+ .sensor-history {
   position: absolute;
   width: 400px;
   top: 0;
@@ -363,7 +350,7 @@
   line-height: normal;
 }
 
-.home-page .overlap-6 {
+ .overlap-6 {
   position: absolute;
   width: 346px;
   height: 67px;
@@ -371,7 +358,7 @@
   left: 677px;
 }
 
-.home-page .system-btn {
+ .system-btn {
   position: absolute;
   width: 346px;
   height: 54px;
@@ -381,7 +368,7 @@
   border-radius: 22px;
 }
 
-.home-page .the-system {
+ .the-system {
   position: absolute;
   width: 300px;
   top: 1px;
@@ -394,7 +381,7 @@
   line-height: normal;
 }
 
-.home-page .overlap-7 {
+ .overlap-7 {
   position: absolute;
   width: 298px;
   height: 66px;
@@ -402,7 +389,7 @@
   left: 345px;
 }
 
-.home-page .about-us-btn {
+ .about-us-btn {
   position: absolute;
   width: 298px;
   height: 54px;
@@ -410,7 +397,7 @@
   left: 0;
 }
 
-.home-page .about-us {
+ .about-us {
   position: absolute;
   width: 184px;
   top: 0;
@@ -423,7 +410,7 @@
   line-height: normal;
 }
 
-.home-page .overlap-8 {
+ .overlap-8 {
   position: absolute;
   width: 276px;
   height: 62px;
@@ -431,7 +418,7 @@
   left: 35px;
 }
 
-.home-page .home-btn {
+ .home-btn {
   position: absolute;
   width: 276px;
   height: 54px;
@@ -439,7 +426,7 @@
   left: 0;
 }
 
-.home-page .home {
+ .home {
   position: absolute;
   top: 0;
   left: 83px;
@@ -452,7 +439,7 @@
   line-height: normal;
 }
 
-.home-page .rectangle-2 {
+ .rectangle-2 {
   position: absolute;
   width: 709px;
   height: 101px;
@@ -460,7 +447,7 @@
   left: 626px;
 }
 
-.home-page .pdf-logo {
+ .pdf-logo {
   position: absolute;
   width: 63px;
   height: 74px;
@@ -468,7 +455,7 @@
   left: 1216px;
 }
 
-.home-page .text-wrapper-3 {
+ .text-wrapper-3 {
   position: absolute;
   top: 1789px;
   left: 648px;
@@ -478,12 +465,4 @@
   font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
-}
-
-.home-page .frame {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 260px;
-  left: 1626px;
 }

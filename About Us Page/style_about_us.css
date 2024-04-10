@@ -11,8 +11,7 @@
   background: linear-gradient(
     180deg,
     rgb(235.14, 242.25, 153.43) 0%,
-    rgba(167.15, 230.61, 137.45, 0.69) 29.5%,
-    rgba(55.52, 242.25, 130.21, 0) 58.5%
+    rgba(17, 140, 27, 0.69) 30%
   );
   width: 1967px;
   height: 1897px;
@@ -341,7 +340,7 @@
   
 }
 
-.about-us-page .image-2 {
+.about-us-page #south-africa {
   width: 146px;
   height: 77px;
   top: 16px;
