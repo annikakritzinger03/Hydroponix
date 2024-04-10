@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Khmer:400");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Khmer", Helvetica;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-size: 48;
+}
+
+.pages h1 {
+    padding: 2vh;
+}
+
+h2 {
+    color: rgba(131, 234, 154, 1);
+    font-size: 40;
+    padding: 2vh;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20;
+    padding: 1vh 0;
+}
+
+.leaf {
+    display: flex;
+}
+
+.leaf p {
+    translate: -30px 0;
+
+}
+
+/*
+This section is dedicated to the overal page design
+*/
+.page1 {
+    background-image: linear-gradient(rgb(235, 242, 153), rgba(167, 231, 137, 0.685), rgba(56, 242, 130, 0)), url(./img_sensor_history/vector-1.png);
+    padding: 0 10%;
+    height: 100vh;
+
+}
+
+.page2,
+.page4 {
+    background-color: rgb(2, 37, 16);
+    padding: 0 10%;
+    height: 100vh;
+
+}
+
+.page3 {
+    background-image: linear-gradient(rgb(235, 242, 153), rgba(167, 231, 137, 0.685), rgba(56, 242, 130, 0)), url(./img_sensor_history/vector-1.png);
+    padding: 0 10%;
+    height: 100vh;
+
+}
+
+
+
+.pages h2 {
+    text-align: center;
+}
+
+.block {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+
+/*
+This section is dedicated to navigation bar design
+*/
+nav .logo_image {
+    position: fixed;
+    float: left;
+    z-index: 10;
+}
+
+nav .nav_options {
+    position: fixed;
+    background-color: rgba(2, 37, 16, 0.9);
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: flex;
+    gap: 1em;
+    left: 50%;
+    translate: -50% 0;
+    z-index: 11;
+    width: max-content;
+}
+
+nav .nav_options h1 {
+    color: black;
+    background-color: rgba(22, 168, 81, 1);
+    width: 240px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+nav .selected_page h1 {
+    font-weight: bold;
+    background-color: rgba(78, 223, 111, 1);
+}
+
+nav a h1:hover {
+    background-color: aqua;
+}
+
+/*
+This section is dedicated to page1 internal design
+*/
+
+
+.page1 .p1content {
+    position: relative;
+    background-color: rgba(2, 37, 16, 0.9);
+    border-radius: 40px;
+    padding: 0 10vh;
+    height: 80vh;
+    top: 20vh;
+
+
+}
+
+.p1content h1 {
+    text-align: center;
+}
+
+
+/*
+This section is dedicated to page24 internal design
+*/
+.p24content {
+    background-color: rgb(2, 37, 16);
+    border-radius: 40px;
+    padding: 0 10vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    height: 100%;
+}
+
+/*
+This section is dedicated to page3 internal design
+*/
+.page3 .p3content {
+    background-color: rgba(2, 37, 16, 0.9);
+    border-radius: 40px;
+    padding: 0 10vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    height: 100%;
+}
