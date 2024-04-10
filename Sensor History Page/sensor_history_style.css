@@ -4,7 +4,18 @@
     margin: 0;
     padding: 0;
     font-family: "Khmer", Helvetica;
+
+    /*1967*/
 }
+
+body {
+    position: absolute;
+    left: 50%;
+    translate: -50% 0;
+    width: 1985px;
+}
+
+
 
 a {
     color: black;
@@ -15,11 +26,9 @@ h1 {
     color: white;
     font-size: 36px;
     font-weight: 100;
+    height: 54px;
 }
 
-.pages h1 {
-    padding: 2vh;
-}
 
 h2 {
     color: rgba(131, 234, 154, 1);
@@ -32,6 +41,10 @@ p {
     color: whitesmoke;
     font-size: 20px;
     padding: 1vh 0;
+}
+
+.Highlight {
+    color: rgba(156, 216, 170, 1) !important;
 }
 
 .leaf {
@@ -47,10 +60,12 @@ p {
 This section is dedicated to the overal page design
 */
 .page1 {
-    background-image: linear-gradient(rgb(235, 242, 153), rgba(167, 231, 137, 0.685), rgba(56, 242, 130, 0)), url(./img_sensor_history/vector-1.png);
+    background-image: url(./img_sensor_history/vector-2.png), linear-gradient(rgb(235.14, 242.25, 153.43) 0%,
+            rgba(17, 140, 27, 0.69) 30%);
     padding: 0 10%;
     height: 100vh;
-
+    max-height: 1600px;
+    background-repeat: no-repeat;
 }
 
 .page2,
@@ -58,13 +73,17 @@ This section is dedicated to the overal page design
     background-color: rgb(2, 37, 16);
     padding: 0 10%;
     height: 100vh;
+    max-height: 1600px;
 
 }
 
 .page3 {
-    background-image: linear-gradient(rgb(235, 242, 153), rgba(167, 231, 137, 0.685), rgba(56, 242, 130, 0)), url(./img_sensor_history/vector-1.png);
+    background-image: url(./img_sensor_history/vector-2.png), linear-gradient(rgb(235.14, 242.25, 153.43) 0%,
+            rgba(17, 140, 27, 0.69) 30%);
     padding: 0 10%;
     height: 100vh;
+    max-height: 1600px;
+    background-repeat: no-repeat;
 
 }
 
@@ -82,7 +101,7 @@ This section is dedicated to the overal page design
 }
 
 
-/*
+/* 43
 This section is dedicated to navigation bar design
 */
 nav .logo_image {
@@ -94,23 +113,43 @@ nav .logo_image {
 nav .nav_options {
     position: fixed;
     background-color: rgba(2, 37, 16, 0.9);
-    padding: 16px 30px;
-    border-radius: 15px;
+    padding: 14px 40px 19px 36px;
+    border-radius: 20px;
     display: flex;
     gap: 2em;
     left: 50%;
     translate: -50% 0;
     z-index: 11;
     width: max-content;
+
+}
+
+nav .nav_options #Home {
+    width: 276px;
+}
+
+nav .nav_options #AboutUs {
+    width: 298px;
+}
+
+nav .nav_options #AboutSystem {
+    width: 346px;
+}
+
+nav .nav_options #SensorHistory {
+    width: 380px;
 }
 
 nav .nav_options h1 {
     color: black;
     background-color: rgba(22, 168, 81, 1);
-    width: 320px;
+
     padding: 0 10px;
     text-align: center;
     border-radius: 30px;
+    font-size: 36px;
+    font-weight: 100;
+    height: 54px;
 }
 
 nav .selected_page h1 {
@@ -122,26 +161,49 @@ nav a h1:hover {
     background-color: aqua;
 }
 
+
+
+
+/*
+This section is dedicated to water droplit placement-hardcoding
+*/
+.logo_image img {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+
+
+
+
 /*
 This section is dedicated to page1 internal design
 */
-
+.page1 .block {
+    translate: -50% -70% !important;
+}
 
 .page1 .p1content {
     position: relative;
     background-color: rgba(2, 37, 16, 0.9);
-    border-radius: 40px;
+    border-radius: 47px 47px 0 0;
     padding: 0 10vh;
     height: 80vh;
-    top: 20vh;
-
+    max-height: 1280px;
+    top: 20%;
+    z-index: 100;
 
 }
 
 .p1content h1 {
+    position: relative;
     text-align: center;
-    font-size: 48px;
+    font-size: 48px !important;
+    padding-top: 3vh;
+
 }
+
+
 
 
 /*
@@ -156,6 +218,7 @@ This section is dedicated to page24 internal design
     left: 50%;
     translate: -50% -50%;
     height: 100%;
+    max-height: 1600px;
 }
 
 /*
@@ -163,11 +226,37 @@ This section is dedicated to page3 internal design
 */
 .page3 .p3content {
     background-color: rgba(2, 37, 16, 0.9);
-    border-radius: 40px;
+    border-radius: 0;
     padding: 0 10vh;
     position: relative;
     top: 50%;
     left: 50%;
     translate: -50% -50%;
     height: 100%;
+    max-height: 1600px;
+}
+
+
+
+
+/*
+This section is dedicated to page scrolling
+*/
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.pages {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+
+}
+
+.page1,
+.page2,
+.page3,
+.page4 {
+
+    scroll-snap-align: start;
 }
