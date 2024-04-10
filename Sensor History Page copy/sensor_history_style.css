@@ -284,9 +284,9 @@ This section is dedicated to page5 internal design
 
 
 /*
-This section is dedicated to page scrolling 
+This section is dedicated to page scrolling
 */
-html::-webkit-scrollbar {
+/*html::-webkit-scrollbar {
     display: none;
 }
 
@@ -304,4 +304,4 @@ html::-webkit-scrollbar {
 .page4,
 .page5 {
     scroll-snap-align: start;
-}
+}*/
