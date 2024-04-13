@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Khmer:400");
 
 body{
-background-image:url(Pictures/vector-1.png), linear-gradient(180deg, rgb(235.14, 242.25, 153.43) 0%,
-rgba(17,140, 27, 69%) 40%, rgba(17, 140, 27, 0.301) );
+background-image:url(Pictures/vector-1.png), linear-gradient(180deg,  rgb(235.14, 242.25, 153.43) 0%,
+rgba(17, 140, 27, 0.69) 30% );
 background-repeat: no-repeat;
 background-position:  center top;
 justify-content: center;
@@ -14,24 +14,25 @@ h2{
     color: rgba(131, 234, 154, 1);
 }
 .content{
-  max-width: 185vh;
+  max-width: 1628px;
   margin-top: 5%;
-  margin-left: 5% !important;
+  margin-left: 7% !important;
   text-align: center;
-  border-radius: 27px;
-  background-color: rgba(3, 32, 14, 0.95);
+  border-radius: 47px;
+  background-color: rgba(2, 37, 16, 0.9);
   color: whitesmoke !important;
+  text-align: center;
 }
 .content h1{
   font-weight: lighter;
   padding-top: 45px;
-  font-size: 2.7rem;
+  font-size: 48px;
 }
 .content h1 h2{
   text-align: center !important;
 }
 .content h2{
-  font-size: 2.3rem;
+  font-size: 40px;
   font-weight: lighter;
 }
 section{
