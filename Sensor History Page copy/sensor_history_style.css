@@ -12,7 +12,7 @@ body {
     position: absolute;
     left: 50%;
     translate: -50% 0;
-    width: 1985px;
+    width: 2000px;
 }
 
 
@@ -286,7 +286,7 @@ This section is dedicated to page5 internal design
 /*
 This section is dedicated to page scrolling
 */
-/*html::-webkit-scrollbar {
+html::-webkit-scrollbar {
     display: none;
 }
 
@@ -304,4 +304,3 @@ This section is dedicated to page scrolling
 .page4,
 .page5 {
     scroll-snap-align: start;
-}*/

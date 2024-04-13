@@ -1,9 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Khmer:400");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Khmer", Helvetica;
+}
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
 #home-page {
-  background-color: rgba(255, 255, 255, 1);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
+  position: absolute;
+  left: 50%;
+  translate: -50% 0;
+  width: 1985px;
 }
 
 .overlap-wrapper {
@@ -14,11 +35,6 @@
     rgba(17, 140, 27, 0.69) 30%
   );
   width: 1967px;
-  height: 1897px;
-}
-
- .overlap {
-  position: relative;
   height: 1897px;
 }
 
@@ -56,6 +72,31 @@
   left: 0;
 }
 
+#hydroponix-logo {
+  position: absolute;
+  width: 760px;
+  height: 244px;
+  top: 0;
+  left: 480px;
+  object-fit: cover;
+}
+
+#navigation-bar {
+  position: absolute;
+  width: 1946px;
+  height: 112px;
+  top: 0;
+  left: 21px;
+}
+
+ #overlap-3 {
+  position: absolute;
+  width: 1946px;
+  height: 256px;
+  top: 112px;
+  left: 136px;
+}
+
  #hydroponics-farming {
   position: absolute;
   width: 1554px;
@@ -76,7 +117,7 @@
 }
 
  .green-text {
-  color: #9cd7a9;
+  color: rgba(156, 216, 170, 1) !important;
   font-family: "Khmer", Helvetica;
   font-weight: 400;
   font-size: 20px;
@@ -219,21 +260,7 @@
   object-fit: cover;
 }
 
- #navigation-bar {
-  position: absolute;
-  width: 1946px;
-  height: 112px;
-  top: 0;
-  left: 21px;
-}
 
- #overlap-3 {
-  position: absolute;
-  width: 1946px;
-  height: 256px;
-  top: 112px;
-  left: 136px;
-}
 
  .tab-bar {
   position: absolute;
@@ -241,202 +268,6 @@
   height: 112px;
   top: 144px;
   left: 0;
-}
-
- #hydroponix-logo {
-  position: absolute;
-  width: 760px;
-  height: 244px;
-  top: 0;
-  left: 480px;
-  object-fit: cover;
-}
-
- #logo {
-  position: absolute;
-  width: 113px;
-  height: 51px;
-  top: 132px;
-  left: 59px;
-}
-
- #overlap-group-2 {
-  position: absolute;
-  width: 114px;
-  height: 143px;
-  top: -229px;
-  left: -148px;
-}
-
- .ellipse {
-  position: absolute;
-  width: 103px;
-  height: 143px;
-  top: 0;
-  left: 3px;
-}
-
- .hydroponix {
-  position: absolute;
-  width: 114px;
-  height: 95px;
-  top: 41px;
-  left: 0;
-  object-fit: cover;
-}
-
- .rectangle {
-  position: absolute;
-  width: 27px;
-  height: 50px;
-  top: 84px;
-  left: 10px;
-}
-
- .ellipse-2 {
-  position: absolute;
-  width: 8px;
-  height: 6px;
-  top: 132px;
-  left: 38px;
-}
-
- .ellipse-3 {
-  position: absolute;
-  width: 12px;
-  height: 49px;
-  top: 14px;
-  left: -45px;
-}
-
- .overlap-4 {
-  position: absolute;
-  width: 1470px;
-  height: 87px;
-  top: 0;
-  left: 248px;
-  background-image: url(./img/btn-container.png);
-  background-size: 100% 100%;
-}
-
- .overlap-5 {
-  position: absolute;
-  width: 380px;
-  height: 56px;
-  top: 11px;
-  left: 1057px;
-}
-
- .sensor-btn {
-  position: absolute;
-  width: 380px;
-  height: 54px;
-  top: 2px;
-  left: 0;
-  background-color: #16a750;
-  border-radius: 22px;
-}
-
- .sensor-history {
-  position: absolute;
-  width: 400px;
-  top: 0;
-  left: 30px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #092c15fd;
-  font-size: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .overlap-6 {
-  position: absolute;
-  width: 346px;
-  height: 67px;
-  top: 13px;
-  left: 677px;
-}
-
- .system-btn {
-  position: absolute;
-  width: 346px;
-  height: 54px;
-  top: 0;
-  left: 0;
-  background-color: #16a750;
-  border-radius: 22px;
-}
-
- .the-system {
-  position: absolute;
-  width: 300px;
-  top: 1px;
-  left: 58px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #092c15fd;
-  font-size: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .overlap-7 {
-  position: absolute;
-  width: 298px;
-  height: 66px;
-  top: 11px;
-  left: 345px;
-}
-
- .about-us-btn {
-  position: absolute;
-  width: 298px;
-  height: 54px;
-  top: 2px;
-  left: 0;
-}
-
- .about-us {
-  position: absolute;
-  width: 184px;
-  top: 0;
-  left: 57px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #092c15fd;
-  font-size: 36px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .overlap-8 {
-  position: absolute;
-  width: 276px;
-  height: 62px;
-  top: 12px;
-  left: 35px;
-}
-
- .home-btn {
-  position: absolute;
-  width: 276px;
-  height: 54px;
-  top: 2px;
-  left: 0;
-}
-
- .home {
-  position: absolute;
-  top: 0;
-  left: 83px;
-  -webkit-text-stroke: 1px #000000;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 36px;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
  .rectangle-2 {
@@ -465,4 +296,63 @@
   font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+nav .logo_image {
+  position: fixed;
+  left: 3%;
+  top: 1%;
+  z-index: 30;
+}
+
+nav .nav_options {
+  position: fixed;
+  background-color: rgba(24, 62, 32, 0.9843);
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  padding: 14px 40px 19px 36px;
+  border-radius: 20px;
+  display: flex;
+  gap: 2em;
+  left: 50%;
+  translate: -50% 0;
+  z-index: 11;
+  width: max-content;
+}
+
+nav .nav_options #Home {
+  width: 276px;
+}
+
+nav .nav_options #AboutUs {
+  width: 298px;
+}
+
+nav .nav_options #AboutSystem {
+  width: 346px;
+}
+
+nav .nav_options #SensorHistory {
+  width: 380px;
+}
+
+nav .nav_options h1 {
+  color: black;
+  background-color: rgba(22, 168, 81, 1);
+
+  padding: 12px 10px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 36px;
+  font-weight: 100;
+  height: 54px;
+}
+
+nav .selected_page h1 {
+  font-weight: bold;
+  background-color: rgba(78, 223, 111, 1);
+}
+
+nav a h1:hover {
+  background-color: aqua;
 }
