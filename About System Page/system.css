@@ -25,13 +25,13 @@ h2{
 .content h1{
   font-weight: lighter;
   padding-top: 45px;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 .content h1 h2{
   text-align: center !important;
 }
 .content h2{
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: lighter;
 }
 section{
@@ -49,11 +49,20 @@ section p{
 .Highlight {
   color: rgba(156, 216, 170, 1) !important;
 }
+.pic-border{
+  background-color: rgba(10, 108, 231, 1) ;
+  border: 14px solid  rgba(10, 108, 231, 1);
+  border-radius: 55px;
+  width: 305px;
+  height: 207px;
+
+}
 section img{
-    border: 15px rgba(10, 108, 231, 1) solid;
-    border-radius: 47px;
-    width: 300px;
-    height: 200px;
+  border: 4px solid black;
+  box-shadow: 2px black;
+  border-radius: 47px;
+  width: 300px;
+  height: 200px;
 }
 
 /*
