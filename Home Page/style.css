@@ -354,5 +354,6 @@ nav .selected_page h1 {
 }
 
 nav a h1:hover {
-  background-color: aqua;
+  background-color: #006dfeb2;
+  color: white;
 }
