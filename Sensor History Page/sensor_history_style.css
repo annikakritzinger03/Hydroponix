@@ -12,7 +12,7 @@ body {
     position: absolute;
     left: 50%;
     translate: -50% 0;
-    width: 1985px;
+    width: 2000px;
 }
 
 
@@ -162,7 +162,8 @@ nav .selected_page h1 {
 }
 
 nav a h1:hover {
-    background-color: aqua;
+    background-color: #006dfeb2;
+    color: white;
 }
 
 
@@ -206,7 +207,6 @@ This section is dedicated to page1 internal design
     left: 50%;
     translate: -50% 0;
     width: 1400px;
-
 }
 
 .p1content h1 {
@@ -219,7 +219,7 @@ This section is dedicated to page1 internal design
 
 .page1 .Sensor-Readings {
     position: relative;
-    background-color: pink;
+    background-color: white;
     width: 1000px;
     height: 500px;
     top: 50%;
@@ -284,7 +284,7 @@ This section is dedicated to page5 internal design
 
 
 /*
-This section is dedicated to page scrolling 
+This section is dedicated to page scrolling
 */
 html::-webkit-scrollbar {
     display: none;
