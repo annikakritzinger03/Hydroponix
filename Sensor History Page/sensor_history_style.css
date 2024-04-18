@@ -223,7 +223,7 @@ This section is dedicated to page1 internal design
     width: 1000px;
     height: 500px;
     top: 50%;
-    left: 50%;
+    left: 40%;
     translate: -50% -50%;
 }
 
