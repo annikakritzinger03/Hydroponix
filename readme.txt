@@ -10,6 +10,6 @@ Contributors:
 - Michael Richter (Sensor History page)
 
 Furthermore, the YouTube video on the Main page explains what hydroponics systems are and how they work, 
-and the informational PDF contains all text from the various website pages.
+the informational PDF contains all text from the various website pages, and the QR code will redirect to the pamphlets.
 Lastly, the iFrame on the Sensor History page serves to visualize the current sensor readings of NodeRed.
 
