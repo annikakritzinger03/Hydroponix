@@ -56,12 +56,49 @@ a {
   border-radius: 2%;
 }
 
+#hydroponix-logo {
+  position: absolute;
+  width: 760px;
+  height: 244px;
+  top: 6%;
+  left: 30%;
+  object-fit: cover;
+}
+
  .content {
   position: absolute;
   width: 1577px;
   height: 777px;
   top: 362px;
   left: 200px;
+}
+
+.h1 {
+  text-align: center;
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: -30px;
+  margin-top: 30px;
+}
+
+.normal-text {
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.green-text {
+  color: rgba(156, 216, 170, 1) !important;
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
  .overlap-group {
@@ -72,60 +109,13 @@ a {
   left: 2%;
 }
 
-#hydroponix-logo {
-  position: absolute;
-  width: 760px;
-  height: 244px;
-  top: 0;
-  left: 480px;
-  object-fit: cover;
-}
-
-#navigation-bar {
-  position: absolute;
-  width: 1946px;
-  height: 112px;
-  top: 0;
-  left: 21px;
-}
-
- #overlap-3 {
-  position: absolute;
-  width: 1946px;
-  height: 256px;
-  top: 112px;
-  left: 136px;
-}
-
- #hydroponics-farming {
-  position: absolute;
-  width: 1554px;
-  top: 0;
-  left: 0;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-  #benefits {
+ #benefits {
   position: absolute;
   top: 151px;
   left: 63px;
 }
 
- .green-text {
-  color: rgba(156, 216, 170, 1) !important;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- #leaf-1 {
+#leaf-1 {
   position: absolute;
   width: 88px;
   height: 56px;
@@ -149,72 +139,7 @@ a {
   left: -3%;
 }
 
- .h1 {
-  position: relative;
-  top: 4%;
-  left: 24%;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 48px;
-  margin-bottom: -30px;
-}
-
-.video-block {
-  position: absolute;
-  width: 800px;
-  height: 483px;
-  top: 67%;
-  left: 12.5%;
-}
-
- .overlap-2 {
-  position: absolute;
-  width: 790px;
-  height: 558px;
-  top: 78px;
-  left: 2%;
-  background-color: #006dfeb2;
-  border-radius: 36px;
-}
-
- .youtube-thumbnail {
-  position: absolute;
-  width: 750px;
-  height: 520px;
-  top: 4%;
-  left: 2.5%;
-  border-radius: 36px;
-  border: 4px solid black;
-}
-
- .image {
-  width: 674px;
-  height: 386px;
-  top: 19px;
-  left: 18px;
-  position: absolute;
-  object-fit: cover;
-}
-
- .play {
-  position: absolute;
-  width: 180px;
-  height: 169px;
-  top: 127px;
-  left: 261px;
-}
-
- .normal-text {
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .hydroponic-imgs {
+#hydroponic-imgs {
   position: absolute;
   width: 1430px;
   height: 242px;
@@ -224,7 +149,7 @@ a {
   border-radius: 36px;
 }
 
- #image-1 {
+#vertical-farming-img {
   width: 347px;
   height: 223px;
   top: 13px;
@@ -233,7 +158,7 @@ a {
   object-fit: cover;
 }
 
- #image-2 {
+ #spinach-img-1 {
   width: 312px;
   height: 214px;
   top: 13px;
@@ -242,7 +167,7 @@ a {
   object-fit: cover;
 }
 
- #image-3 {
+ #spinach-img-2 {
   width: 334px;
   height: 215px;
   top: 14px;
@@ -251,7 +176,7 @@ a {
   object-fit: cover;
 }
 
- #image-4 {
+ #tomatoes-img {
   width: 361px;
   height: 214px;
   top: 15px;
@@ -260,12 +185,32 @@ a {
   object-fit: cover;
 }
 
- .tab-bar {
+#video-block {
   position: absolute;
-  width: 1946px;
-  height: 112px;
-  top: 144px;
-  left: 0;
+  width: 800px;
+  height: 483px;
+  top: 67%;
+  left: 12.5%;
+}
+
+#iframe {
+  position: absolute;
+  width: 790px;
+  height: 558px;
+  top: 78px;
+  left: 2%;
+  background-color: #006dfeb2;
+  border-radius: 36px;
+}
+
+#youtube-thumbnail {
+  position: absolute;
+  width: 750px;
+  height: 520px;
+  top: 4%;
+  left: 2.5%;
+  border-radius: 36px;
+  border: 4px solid black;
 }
 
 #pdf-wrapper {
@@ -278,15 +223,7 @@ a {
   border-radius: 26px;
 }
 
- .pdf-logo {
-  position: absolute;
-  width: 63px;
-  height: 74px;
-  top: 72%;
-  left: 80%;
-}
-
- .text-wrapper {
+#pdf-text {
   position: absolute;
   top: 72.5%;
   left: 55%;
@@ -296,6 +233,14 @@ a {
   font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+ #pdf-logo {
+  position: absolute;
+  width: 63px;
+  height: 74px;
+  top: 72%;
+  left: 80%;
 }
 
 #qr-wrapper {
@@ -308,7 +253,7 @@ a {
   border-radius: 30px;
 }
 
-.text-wrapper-2 {
+#qr-text {
   position: absolute;
   top: 79%;
   left: 55%;
@@ -320,7 +265,7 @@ a {
   line-height: normal;
 }
 
-.qr {
+#qr-image {
   position: absolute;
   width: 320px;
   height: 320px;
@@ -328,6 +273,8 @@ a {
   left: 61%;
   border: 4px solid black;
 }
+
+/* This section is dedicated to navigation bar design */
 
 nav .logo_image {
   position: fixed;

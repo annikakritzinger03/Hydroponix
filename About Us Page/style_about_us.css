@@ -28,7 +28,7 @@ a {
   width: 2000px;
 }
 
- .overlap-wrapper {
+.overlap-wrapper {
   background-color: rgba(255, 255, 255, 1);
   background: linear-gradient(
     180deg,
@@ -39,12 +39,56 @@ a {
   height: 1897px;
 }
 
- .overlap {
+.h1{
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
   position: relative;
-  height: 1897px;
+  left: 31%;
+  width: 550px;
 }
 
- .vector {
+.h2{
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  color: #82e99a;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.h3{
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  color: #82ea9a;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.normal-text {
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.green-text {
+  color: rgba(156, 216, 170, 1) !important;
+  font-family: "Khmer", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+ #background {
   position: absolute;
   width: 1967px;
   height: 1816px;
@@ -61,286 +105,7 @@ a {
   left: 181px;
 }
 
- .team-flags {
-  position: absolute;
-  width: 1125px;
-  height: 326px;
-  top: 1552px;
-  left: 444px;
-}
-
- .text-wrapper {
-  width: 256px;
-  top: 0;
-  left: 25px;
-  color: #82ea9a;
-  font-size: 32px;
-  position: absolute;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .div {
-  position: absolute;
-  width: 267px;
-  top: 0;
-  left: 406px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #82ea9a;
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .text-wrapper-2 {
-  position: absolute;
-  width: 273px;
-  top: 0;
-  left: 777px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #82ea9a;
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .overlap-group {
-  position: absolute;
-  width: 1119px;
-  height: 251px;
-  top: 75px;
-  left: 0;
-  background-color: #006dfeb2;
-  border-radius: 36px;
-}
-
- .image {
-  width: 378px;
-  height: 213px;
-  top: 19px;
-  left: 725px;
-  position: absolute;
-  object-fit: cover;
-}
-
- .body {
-  position: absolute;
-  width: 1524px;
-  height: 718px;
-  top: 870px;
-  left: 229px;
-}
-
- .overlap-2 {
-  position: absolute;
-  width: 1503px;
-  height: 381px;
-  top: 337px;
-  left: 0;
-}
-
- .leaf-1 {
-  position: absolute;
-  width: 88px;
-  height: 56px;
-  top: 0%;
-  left: -3%;
-}
-
- .leaf-2 {
-  top: 22%;
-  left: -3%;
-  position: absolute;
-  width: 88px;
-  height: 56px;
-}
-
- .leaf-3 {
-  top: 43%;
-  left: -3%;
-  position: absolute;
-  width: 88px;
-  height: 56px;
-}
-
- .leaf-4 {
-  top: 70%;
-  left: -3%;
-  position: absolute;
-  width: 88px;
-  height: 56px;
-}
-
- .leaf-5 {
-  top: 0%;
-  left: -4%;
-  position: absolute;
-  width: 88px;
-  height: 56px;
-}
-
- .leaf-6 {
-  top: 34%;
-  left: -4%;
-  position: absolute;
-  width: 88px;
-  height: 56px;
-}
-
- .leaf-7 {
-  top: 66%;
-  left: -4%;
-  position: absolute;
-  width: 88px;
-  height: 56px;
-}
-
-#mobile-dowbload{
-  font-weight: 700;
-  color: #82e99a;
-}
-
- .the-project-can-be {
-  position: absolute;
-  width: 1496px;
-  top: 0;
-  left: 7px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .hydro-team-focuses {
-  width: 1132px;
-  top: 127px;
-  left: 70px;
-  color: transparent;
-  font-size: 20px;
-  position: absolute;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .span {
-  color: #9cd7a9;
-}
-
- .text-wrapper-3 {
-  color: #ffffff;
-}
-
- .overlap-3 {
-  position: absolute;
-  width: 1496px;
-  height: 254px;
-  top: 76px;
-  left: 18px;
-}
-
- .this-project-ENGR {
-  position: absolute;
-  width: 1496px;
-  top: 0;
-  left: 0;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .text-wrapper-4 {
-  top: 178px;
-  left: 581px;
-  position: absolute;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #82e99a;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .text-wrapper-5 {
-  top: 0;
-  left: 540px;
-  position: absolute;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #82e99a;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .logo {
-  position: absolute;
-  width: 113px;
-  height: 51px;
-  top: 244px;
-  left: 216px;
-}
-
- .overlap-4 {
-  position: absolute;
-  width: 114px;
-  height: 143px;
-  top: -229px;
-  left: -145px;
-}
-
- .ellipse {
-  position: absolute;
-  width: 103px;
-  height: 143px;
-  top: 0;
-  left: 3px;
-}
-
- .hydroponix {
-  position: absolute;
-  width: 114px;
-  height: 95px;
-  top: 41px;
-  left: 0;
-  object-fit: cover;
-}
-
- .rectangle {
-  position: absolute;
-  width: 27px;
-  height: 50px;
-  top: 81px;
-  left: 8px;
-}
-
- .ellipse-2 {
-  position: absolute;
-  width: 8px;
-  height: 6px;
-  top: 129px;
-  left: 36px;
-}
-
- .ellipse-3 {
-  position: absolute;
-  width: 12px;
-  height: 49px;
-  top: 14px;
-  left: -2095px;
-}
-
- .about-us {
+.about-us {
   position: absolute;
   width: 1549px;
   height: 638px;
@@ -348,26 +113,30 @@ a {
   left: 247px;
 }
 
- .overlap-5 {
+#unis {
   position: absolute;
-  width: 667px;
-  height: 236px;
-  top: 0;
-  left: 470px;
+  left: 33%;
 }
 
- .image-wrapper {
+#team-flags {
   position: absolute;
-  width: 184px;
-  height: 111px;
-  top: 126px;
-  left: 483px;
+  width: 1125px;
+  height: 326px;
+  top: 1552px;
+  left: 444px;
+}
+
+#sa-block {
+  position: absolute;
+  width: 174px;
+  height: 101px;
+  top: 20%;
+  left: 65%;
   background-color: #006dfeb2;
-  background-size: 100% 100%;
-  
+  border-radius: 32px;
 }
 
- #south-africa {
+#south-africa {
   width: 146px;
   height: 77px;
   top: 12%;
@@ -376,88 +145,26 @@ a {
   object-fit: cover;
 }
 
- .overlap-6 {
-  position: absolute;
-  width: 490px;
-  height: 141px;
-  top: 0;
-  left: 0;
-}
-
- .text-wrapper-6 {
-  position: absolute;
-  top: 73px;
-  left: 0;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #82e99a;
-  font-size: 40px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .text-wrapper-7 {
-  position: absolute;
-  top: 0;
-  left: -5%;
-  width: 600px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .overlap-7 {
-  position: absolute;
-  width: 184px;
-  height: 111px;
-  top: 125px;
-  left: 285px;
-  border-radius: 32px;
-}
-
-.rectangle-1 {
+ #usa-block {
   position: absolute;
   width: 174px;
   height: 101px;
-  top: 57%;
-  left: 68%;
-  background-color: #006dfeb2;
-  border-radius: 32px;
-}
-
- .rectangle-2 {
-  position: absolute;
-  width: 174px;
-  height: 101px;
-  top: 4%;
-  left: 3%;
+  top: 20%;
+  left: 20%;
   background-color: #006dfeb2;
   border-radius: 30px;
 }
 
- .image-3 {
+ #america {
   width: 146px;
   height: 77px;
-  top: 17px;
-  left: 19px;
+  top: 11px;
+  left: 15px;
   position: absolute;
   object-fit: cover;
 }
 
- .img-wrapper {
-  position: absolute;
-  width: 140px;
-  height: 135px;
-  top: 0%;
-  left: 80%;
-  background-color: #006dfeb2;
-  border-radius: 30px;
-}
-
- .img-wrapper-2 {
+#ps-block {
   position: absolute;
   width: 144px;
   height: 135px;
@@ -468,16 +175,7 @@ a {
 
 }
 
- .image-4 {
-  width: 116px;
-  height: 115px;
-  top: 11px;
-  left: 13px;
-  position: absolute;
-  object-fit: cover;
-}
-
- .image-5 {
+#ps-logo {
   width: 117px;
   height: 115px;
   top: 11px;
@@ -486,7 +184,40 @@ a {
   object-fit: cover;
 }
 
- .overlap-9 {
+#ps {
+  position: absolute;
+  top: 183px;
+  left: 98px;
+  color: #b8effb;
+}
+
+#bc-block {
+  position: absolute;
+  width: 140px;
+  height: 135px;
+  top: 0%;
+  left: 80%;
+  background-color: #006dfeb2;
+  border-radius: 30px;
+}
+
+ #bc-logo {
+  width: 116px;
+  height: 115px;
+  top: 11px;
+  left: 13px;
+  position: absolute;
+  object-fit: cover;
+}
+
+#bc {
+  position: absolute;
+  top: 183px;
+  left: 78%;
+  color: #e78987;
+}
+
+ #involved-universities {
   position: absolute;
   width: 1496px;
   height: 366px;
@@ -494,73 +225,156 @@ a {
   left: 0;
 }
 
- .both-penn-state-and {
+ #benefits {
   position: absolute;
-  width: 1496px;
-  top: 0;
-  left: 0;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .interacting-with {
-  position: absolute;
-  width: 1477px;
   top: 112px;
   left: 60px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
+}
+
+#leaf-1 {
+  position: absolute;
+  top: 0%;
+  left: -3%;
+}
+
+ #leaf-2 {
+  top: 22%;
+  left: -3%;
+  position: absolute;
+}
+
+ #leaf-3 {
+  top: 43%;
+  left: -3%;
+  position: absolute;
+}
+
+ #leaf-4 {
+  top: 70%;
+  left: -3%;
+  position: absolute;
+}
+
+.body {
+  position: absolute;
+  width: 1524px;
+  height: 718px;
+  top: 870px;
+  left: 229px;
+}
+
+#project-expectations{
+  position: absolute;
+  width: 1500px;
+  height: 254px;
+  top: 76px;
+  left: 18px;
+}
+
+#project-teams {
+  position: absolute;
+  width: 1503px;
+  height: 381px;
+  top: 40%;
+  left: 1%;
+}
+
+#teams {
+  position: absolute;
+  top: -70px;
+  left: 630px;
+}
+
+#teams-list {
+  width: 1400px;
+  top: 127px;
+  left: 70px;
+  color: transparent;
   font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
- .text-wrapper-8 {
   position: absolute;
-  top: 183px;
-  left: 1148px;
   font-family: "Khmer", Helvetica;
   font-weight: 400;
-  color: #e78987;
-  font-size: 32px;
   letter-spacing: 0;
   line-height: normal;
+  color: white;
 }
 
- .text-wrapper-9 {
+#leaf-5 {
+  top: 0%;
+  left: -4%;
   position: absolute;
-  top: 183px;
-  left: 98px;
-  font-family: "Khmer", Helvetica;
-  font-weight: 400;
-  color: #b8effb;
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: normal;
 }
 
- .flag-image {
+#mobile-download{
+  font-weight: 700;
+  color: #82e99a;
+}
+
+ #leaf-6 {
+  top: 34%;
+  left: -4%;
   position: absolute;
-  width: 374px;
-  height: 213px;
-  top: 1646px;
-  left: 778px;
+ }
+
+ #leaf-7 {
+  top: 66%;
+  left: -4%;
+  position: absolute;
+}
+
+ #hydro-text {
+  position: absolute;
+  left: 1.5%;
+}
+
+ #electro-text {
+  position: absolute;
+  left: 35%;
+}
+
+ #photon-text {
+  position: absolute;
+  left: 70%;
+}
+
+ #flag-block {
+  position: absolute;
+  width: 1200px;
+  height: 251px;
+  top: 85%;
+  left: 19%;
+  background-color: #006dfeb2;
+  border-radius: 36px;
+}
+
+#hydro {
+  position: absolute;
+  width: 370px;
+  height: 210px;
+  top: 8%;
+  left: 2%;
+  object-fit: fill;
+}
+
+ #electro {
+  position: absolute;
+  width: 370px;
+  height: 210px;
+  top: 8%;
+  left: 34.5%;
   object-fit: cover;
 }
 
- .whatsapp-image {
+#photon {
+  width: 370px;
+  height: 210px;
+  top: 19px;
+  left: 67%;
   position: absolute;
-  width: 299px;
-  height: 226px;
-  top: 1640px;
-  left: 460px;
   object-fit: cover;
 }
+
+/* This section is dedicated to navigation bar design */
 
 nav .logo_image {
   position: fixed;
