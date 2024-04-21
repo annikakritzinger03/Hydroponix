@@ -25,7 +25,7 @@ a {
   position: absolute;
   left: 50%;
   translate: -50% 0;
-  width: 1985px;
+  width: 2000px;
 }
 
  .overlap-wrapper {
@@ -197,6 +197,11 @@ a {
   position: absolute;
   width: 88px;
   height: 56px;
+}
+
+#mobile-dowbload{
+  font-weight: 700;
+  color: #82e99a;
 }
 
  .the-project-can-be {
