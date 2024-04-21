@@ -276,11 +276,11 @@ a {
 
 /* This section is dedicated to navigation bar design */
 
-nav .logo_image {
+#logo-img {
   position: fixed;
   left: 3%;
   top: 1%;
-  z-index: 30;
+  z-index: 11;
 }
 
 nav .nav_options {
