@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Khmer:400");
 
 body {
-  background-image: url(Pictures/vector-1.png), linear-gradient(180deg, rgb(235.14, 242.25, 153.43) 0%,
+  background-image: url(Images/background.png), linear-gradient(180deg, rgb(235.14, 242.25, 153.43) 0%,
       rgba(17, 140, 27, 0.69) 30%);
   background-repeat: no-repeat;
   background-position: center top;

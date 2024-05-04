@@ -62,7 +62,7 @@ This section is dedicated to the overal page design
 
 
 .page1 {
-    background-image: url(./img_sensor_metrics/vector-2.png), linear-gradient(rgb(235.14, 242.25, 153.43) 0%,
+    background-image: url(./img_sensor_metrics/background.png), linear-gradient(rgb(235.14, 242.25, 153.43) 0%,
             rgba(17, 140, 27, 0.69) 30%);
     /*padding: 0 10%;*/
     height: 100vh;
@@ -81,7 +81,7 @@ This section is dedicated to the overal page design
 
 .page3,
 .page5 {
-    background-image: url(./img_sensor_metrics/vector-2.png), linear-gradient(rgb(235.14, 242.25, 153.43) 0%,
+    background-image: url(./img_sensor_metrics/background.png), linear-gradient(rgb(235.14, 242.25, 153.43) 0%,
             rgba(17, 140, 27, 0.69) 30%);
     padding: 0 10%;
     height: 100vh;

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="home_style.css" />
+    <link rel="icon" type="image/png" href="Images/water-droplet.png">
+    <title>Home</title>
+  </head>
+
+  <!--Navigation panel-->
+  <body>
+    <nav> 
+      <div class="nav_options">
+        <a href="../Home Page/home.html" class="selected_page" id="Home">
+          <h1>HOME</h1>
+        </a>
+        <a href="../About Us Page/about_us.html" id="AboutUs">
+          <h1>ABOUT US</h1>
+        </a>
+        <a href="../About System Page/about_system.html" id="AboutSystem">
+          <h1>ABOUT SYSTEM</h1>
+        </a>
+        <a href="../Sensor Metrics Page/sensor_metrics.html" id="SensorMetrics">
+          <h1>SENSOR METRICS</h1>
+        </a>
+      </div>
+    </nav>
+
+    <div id="home-page"> 
+      <div class="overlap-wrapper">
+        
+        <!--Water droplet logo (Also links back to Home page)-->
+        <a href="../Home Page/home.html">
+          <img id="logo-img" src="Images/water-droplet.png" alt="Hydroponix Logo" height="150px">
+        </a>
+
+        <!--Background image and content block-->
+        <div class="overlap"> 
+          <img id="background-img" src="Images/background.png" alt="Background" />
+          <img id="content-block" src="Images/content-block.png" alt="Content Block" />
+
+          <!--Full Hydroponix Logo (only displays on Main page)-->
+          <img id="hydroponix-logo" src="Images/hydroponix-logo.png" alt="Hydroponix Full Logo" />
+
+          <div class="content">
+            <div class="h1">WHAT IS HYDROPONIC FARMING?</div>
+            <div class="overlap-group">
+              <p class="normal-text">
+                <span class="green-text">Hydroponics farming</span>, also referred to as 
+                <span class="green-text">soilless farming</span>,
+                is a method that uses a combination of water and nutrient solution - the water does not reach the plant’s
+                roots through soil, but directly instead. This allows for a massive number of benefits, especially 
+                when compared to traditional farming.<br /><br />
+                To name a few of these benefits:
+              </p>
+
+              <p id="benefits" class="normal-text">
+                <img id="leaf-1" src="Images/leaf.svg" alt="Leaf bullet" />
+                <span class="green-text">Hydroponic systems are extremely scalable:</span>
+                  Systems can range from only growing a few plants to growing hundreds in a single container! <br />
+                  Additionally, vertical farming allows for incredible space saving capabilities, allowing the grower to
+                  fully utilize the available space without constraints.<br />
+                <img id="leaf-2" src="Images/leaf.svg" alt="Leaf bullet" />
+                <span class="green-text">There are various types of hydroponic systems: </span>
+                  From Deep Water Culture (DWC) to Aeroponics, hydroponics has the benefit of the grower fully having
+                  control over the workings and components of the system. This means that the system can be decided on
+                  based on factors such as budget, available resources, space restrictions, plant species, and more,
+                  allowing for each system to be customized based on the grower and their farming goals!<br />
+                <img id="leaf-3" src="Images/leaf.svg" alt="Leaf bullet" />
+                <span class="green-text">Hydroponic systems are more cost-effective: </span>
+                  While the initial cost of these systems are higher than traditional farming systems due to the
+                  purchase of the needed components, the maintenance costs in the long run will turn out to be much cheaper. <br />
+                  This is because hydroponics do not require as much resources (water, pesticides, fertilizer,
+                  etc.) as traditional systems when managed efficiently.
+              </p>
+            </div>
+          </div>
+
+          <!--4 Hydroponic images-->
+          <div id="hydroponic-imgs">
+            <img id="vertical-farming-img" src="Images/vertical-farming.png" alt="Vertical farming" />
+            <img id="spinach-img-1" src="Images/spinach-1.png" alt="Spinach hydroponics" />
+            <img id="spinach-img-2" src="Images/spinach-2.png" alt="Spinach hydroponics on a larger scale" />
+            <img id="tomatoes-img" src="Images/tomatoes.png" alt="Tomatoes hydroponics" />
+          </div>
+
+          <div id="video-block">
+            <p class="normal-text">
+              To view a more in-depth explanation of what hydroponic systems are and how they work, feel free to watch
+              this informational video:
+            </p>
+
+            <!--YouTube Video iFrame - The video an be watched either on the website or on YouTube-->
+            <div id="iframe">
+              <iframe id="youtube-thumbnail" src="https://www.youtube.com/embed/V0BrgBF9IQM?si=6Bx3KFyCsidSSPka"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen alt="YouTube video thumbnail">
+              </iframe>
+            </div>
+          </div>
+
+          <!--Informational PDF contains all text on the website pages (can be located under Downloads after clicking on it)-->
+          <div id="pdf-wrapper"></div>
+          <div id="pdf-text">Download our Informational PDF:</div>
+          <a href="../Hydroponix Website.pdf" download="Hydroponix Website PDF">
+            <img id="pdf-logo" src="Images/pdf-logo.png" alt="Pdf icon" />
+          </a>
+
+          <!--Scanning the QR code will open the pamphlet PDF in Google Drive (Can then be downloaded or shared)-->
+          <div id="qr-wrapper"></div>
+          <div id="qr-text">View our Pamphlets by Scanning this QR:</div>
+          <img id="qr-image" src="Images/pamphlets-qr.png" alt="Pamphlets QR code" />
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

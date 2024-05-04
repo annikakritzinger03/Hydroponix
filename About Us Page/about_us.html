@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="about_us_style.css" />
+    <title>About Us</title>
+    <link rel="icon" type="image/png" href="Images/water-droplet.png">
+  </head>
+
+  <!--Navigation panel-->
+  <body>
+    <nav>
+      <div class="nav_options">
+        <a href="../Home Page/home.html" id="Home">
+          <h1>HOME</h1>
+        </a>
+        <a href="../About Us Page/about_us.html" class="selected_page" id="AboutUs">
+          <h1>ABOUT US</h1>
+        </a>
+        <a href="../About System Page/about_system.html" id="AboutSystem">
+          <h1>ABOUT SYSTEM</h1>
+        </a>
+        <a href="../Sensor Metrics Page/sensor_metrics.html" id="SensorMetrics">
+          <h1>SENSOR METRICS</h1>
+        </a>
+      </div>
+    </nav>
+
+    <div class="about-us-page">
+
+      <!--Water droplet logo (Also links back to Home page)-->
+      <a href="../Home Page/home.html">
+        <img id="logo-img" src="Images/water-droplet.png" alt="Hydroponix Logo" height="150px">
+      </a>
+
+      <div class="overlap-wrapper">  
+
+          <!--Background image and content block-->
+          <img id="background" src="Images/background.png" alt="Background Image" />
+          <img class="content-block" src="Images/content-block.png" alt="Content block" />
+
+          <div class="about-us">
+            <div class="h1">ABOUT THE PROJECT</div>
+            <div id="unis" class="h2">The Involved Universities</div>
+
+            <!--South Africa and USA images-->
+            <div id="sa-block">
+              <img id="south-africa" src="Images/sa-flag.png" alt="South African Flag" />
+            </div>
+            <div id="usa-block">
+              <img id="america" src="Images/usa-flag.png" alt="American Flag" />
+            </div>
+
+            <!--Penn State image and text-->
+            <div id="ps-block">
+              <a href="https://www.psu.edu/" title="Visit the Penn State website" >
+                <img id="ps-logo" src="Images/ps-logo.png" alt="Penn State Logo" />
+              </a>
+            </div>
+            <div id="ps" class="h3">Penn State</div>
+
+            <!--Belgium Campus image and text-->
+            <div id="bc-block">
+              <a href="https://www.belgiumcampus.ac.za/" title="Visit the Belgium Campus website" >
+                <img id="bc-logo" href="" src="Images/bc-logo.png" alt="Belgium Campus Logo" />
+              </a>
+            </div>
+            <div id="bc" class="h3">Belgium Campus</div>
+
+            <div id="involved-universities">
+              <p class="normal-text">
+                Both Penn State and Belgium Campus partake in this incredible hydroponics project, where students are
+                given the opportunity to collaborate with international partners for a quarterly period. <br />
+                This offers the following benefits for students involved in this project:
+              </p>
+              <p id="benefits" class="normal-text">
+                <img id="leaf-1" src="Images/leaf.svg" alt="Leaf bullet" />
+                Interacting with students from another university (and another culture) provides students with the
+                opportunity to learn about different traditions and allows students to see and understand different
+                perspectives and opinions, which improves creativity, critical thinking and problem-solving skills.<br />
+                <img id="leaf-2" src="Images/leaf.svg" alt="Leaf bullet" />
+                Working with students from another university and cultures encourages collaboration and teamwork, allowing
+                for better informed decisions to be made.<br />
+                <img id="leaf-3" src="Images/leaf.svg" alt="Leaf bullet" />
+                Participating in the project offers students a hands-on learning opportunity outside of class.
+                Additionally, various soft skills and hard skills will be learned in the process of discovering 
+                more on hydroponics systems.<br />
+                <img id="leaf-4" src="Images/leaf.svg" alt="Leaf bullet" />
+                Students have access to the opportunity of presenting a prototype of the system to primary school
+                students. This will allow students to come up with new and interactive ways of explaining the 
+                system to encourage participation and spark an interest of hydroponics in these students.
+              </p>
+            </div>
+          </div>
+
+          <div class="body">
+            <div class="h2">Project Expectations</div>
+
+            <div id="project-expectations">
+              <p class="normal-text">
+                  This project (ENGR 422 for Penn State, and PRJ 381 for Belgium Campus)
+                  includes the design,
+                  fabrication, test, and presentation of a working hydroponics prototype. It ultimately aims to teach
+                  middle school students the importance of nutritional food, general hydroponics concepts, and the
+                  engineering principles of hydroponics in a practical, fun, and hands-on manner! It emphasizes
+                  <span class="green-text">the transformation of communities through education-based engineering.</span>
+                  This can be further expanded on by considering that the project must be
+                  culturally accepted, relevant to the community, and also a long-term solution.
+              </p>
+              
+            </div>
+
+            <div id="project-teams">
+              <div id="teams" class="h2">Project Teams</div>
+              <p class="normal-text">
+                The project can be broken up into three subsystems. However, it is also important to note that while
+                there will be three project teams, the subsystems must be able to successfully and seamlessly integrate
+                with each other to form the larger system.<br />
+                The three teams and their design domains are as follow:
+              </p>
+              <p id="teams-list">
+                <img id="leaf-5" src="Images/leaf.svg" alt="Leaf bullet" />
+                <span class="green-text">Hydro team:</span>
+                Focuses on water flow and structures such as pipes. They are responsible
+                for the primary physical tructure, as well as the monitoring of nutrients and water factors. 
+                They are also responsible for the development of a mobile app - download it
+                <!--Downloading the Hydroponix Mobile Application (Specific to Android devices)-->
+                <a href="Hydroponix_Mobile.apk" download="Hydroponix Mobile App" id="mobile-download"><u>here</u></a>.
+                (Note: App can only be downloaded on android devices)<br />
+                
+              
+                <img id="leaf-6" src="Images/leaf.svg" alt="Leaf bullet" />
+                <span class="green-text">Electro team:</span>
+                Focuses on electrical aspects and controls. They are responsible for
+                technical aspects such as power constraints and sources, data handling and processing, and the 
+                WiFi/networking of the system. They are also responsible for creating and managing NodeRed flows
+                that work with the sensor data.<br />
+
+                <img id="leaf-7" src="Images/leaf.svg" alt="Leaf bullet" />
+                <span class="green-text">Photon team:</span>
+                Focuses on lighting and plant health. We are responsible for lighting details, such as type,
+                location, and light mapping, as well as all plant-health related factors, including nutrient intake and ensuring
+                that other environmental factors are in the correct ranges. We are also responsible for
+                the design, build, and management of this website.
+              </p>
+            </div>
+          </div>
+
+          <!--Project Teams and their flags-->
+          <div id="team-flags">
+            <div id="hydro-text" class="h3">Hydro Team Flag</div>
+            <div id="electro-text" class="h3">Electro Team Flag</div>
+            <div id="photon-text" class="h3">Photon Team Flag</div>
+          </div>
+
+          <div id="flag-block">
+            <img id="hydro" src="Images/hydro-flag.png" alt="Hydro Team Flag" />
+            <img id="electro" src="Images/electro-flag.png" alt="Electro Team Flag" />
+            <img id="photon" src="Images/photon-flag.png" alt="Photon Team Flag" /></div>
+          </div>
+
+        </div>
+      </div>
+  </body>
+</html>
