@@ -5,7 +5,7 @@ About System: A description of the hardware and software of the project, as well
 Sensor History: A view of the NodeRed dashboards showing sensor data, and  information on water level, flow level, temperature, and nutrients.
 
 Contributors:
-- Annika Kritzinger (Home and About Us page)
+- Annika Kritzinger (Home page and About Us page)
 - Abdul Uzair Rashid (About the System page)
 - Michael Richter (Sensor History page)
 
